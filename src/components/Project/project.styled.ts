@@ -84,13 +84,14 @@ export const ProjectContainer = styled.div`
     }
 `
 
-export const ProjectItem = styled.div`
+export const ProjectItem = styled.a`
     padding: 2rem 2.5rem;
     max-width: 30rem;
     height: 350px;
     background: var(--light-navy);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
+    text-decoration: none;
     cursor: pointer;
     transition: var(--transition);
     &:hover {

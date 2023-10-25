@@ -25,7 +25,7 @@ const Projects: FC<{}> = () => {
 			<h2>{lang === 'EN' ? `Recent Projects` : '个人项目'}</h2>
 			<ProjectContainer>
 				{projectWithLang[lang].map((project: ProjectInterface) => (
-					<ProjectItem key={project.name}>
+					<ProjectItem key={project.name} href={project.github}>
 						<header>
 							<StyledVscFolder />
 							<div>

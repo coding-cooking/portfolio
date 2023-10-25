@@ -25,11 +25,11 @@ const navsEN: Array<NavLinkInterface> = [
         link: '#project',
         isActive: false,
     },
-    {
-        title: 'Contact',
-        link: '#contact',
-        isActive: false,
-    }
+    // {
+    //     title: 'Contact',
+    //     link: '#contact',
+    //     isActive: false,
+    // }
 ];
 
 const navsCH: Array<NavLinkInterface> = [
