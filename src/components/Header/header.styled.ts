@@ -14,6 +14,7 @@ export const Header = styled.header<HeaderInterface>`
 	padding: 0 25px;
 	height: var(--header-scroll-height);
 	background: var(--header);
+	opacity: .8;
 	backdrop-filter: blur(4px);
 	transition: var(--transition);
 	transform: ${(props) =>

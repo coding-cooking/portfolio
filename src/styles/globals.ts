@@ -5,8 +5,8 @@ const GlobalStyle = createGlobalStyle`
     ${normalize};
 
     :root {
-        --background: #073a63;
-        --header: #0a4b80;
+        --background: #031c30;
+        --header: #031c30;
         --header-scroll-height: 80px;
         --box-shadow: rgba(2,12,27,0.7);
 

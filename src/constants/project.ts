@@ -8,19 +8,19 @@ export interface ProjectInterface {
 
 export const projectCH: Array<ProjectInterface> = [
     {
-        name: 'Prompt创作平台',
+        name: 'Superprompt',
         desc: '一个响应式的网站页面，用户可以创作、编辑、搜索、删除prompt。',
         technologies: ['React', 'Next.js', 'NextAuth', 'Typescript', 'Google OAuth', 'MongoDB', 'Vercel'],
         github: 'https://github.com/coding-cooking/project_superprompt',
     },
     {
-        name: '个人网站',
+        name: 'Alias Blog',
         desc: '一个展示portfolio、创建博客的网站，提供了谷歌第三方登录，用mongoDB存储数据。',
         technologies: ['React', 'Next.js', 'NextAuth', 'Typescript', 'Google OAuth', 'MongoDB', 'Vercel'],
         github: 'https://github.com/coding-cooking/next_mongo',
     },
     {
-        name: 'Post创作网站',
+        name: 'PostList',
         desc: '一个创作、展示post的网站，用了Redux、Redux-thunk管理state。',
         technologies: ['React', 'Redux', 'Typescript'],
         github: 'https://github.com/coding-cooking/redux_post',
@@ -30,19 +30,19 @@ export const projectCH: Array<ProjectInterface> = [
 
 export const projectEN: Array<ProjectInterface> = [
     {
-        name: 'Prompt Create Website',
+        name: 'Superprompt',
         desc: 'A responsive website that user can use to create, edit, search, and delete prompts.',
         technologies: ['React', 'Next.js', 'NextAuth', 'Typescript', 'Google OAuth', 'MongoDB'],
         github: 'https://github.com/coding-cooking/project_superprompt',
     },
     {
-        name: 'Personal Website',
+        name: 'Alias Blog',
         desc: 'A website that showcases a portfolio and allows users to create blogs, offering Google third-party login and using MongoDB to store data.',
         technologies: ['React', 'Next.js', 'NextAuth', 'Typescript', 'Google OAuth', 'MongoDB'],
         github: 'https://github.com/coding-cooking/next_mongo',
     },
     {
-        name: 'Post Create Website',
+        name: 'PostList',
         desc: 'A website for creating and displaying posts that uses Redux and Redux-thunk to manage state.',
         technologies: ['React',  'Redux', 'Typescript'],
         github: 'https://github.com/coding-cooking/redux_post'
