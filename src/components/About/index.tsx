@@ -51,7 +51,7 @@ const About: FC<{}> = () => {
 					})} */}
 					{
 						lang === 'EN' ? <>
-							<p>When I was a senior CMS manager 6 years ago, I made this career
+							<p>When I was a senior CMS manager 4 years ago, I made this career
 								transition to become a software developer. I love getting hands-on
 								with Tech, and I have found that working as a software developer, I
 								get more exposure and hands-on with technology than any other role I
@@ -61,7 +61,7 @@ const About: FC<{}> = () => {
 
 						</> : <>
 							<p style={{ lineHeight: 1.6 }}>
-								6年前，当我还是一名高级内容管理系统（CMS）经理时，我做出了职业转型的决定，成为一名软件开发人员。我喜欢亲自动手进行技术工作，而我发现作为一名软件开发人员，我比我之前从事的任何其他职位都更多地接触和实践技术。尽管如此，我个人并不认为之前的时间是浪费的，因为它为我提供了宝贵的CMS行业洞察。</p>
+								4年前，当我还是一名高级内容管理系统（CMS）经理时，我做出了职业转型的决定，成为一名软件开发人员。我喜欢亲自动手进行技术工作，而我发现作为一名软件开发人员，我比我之前从事的任何其他职位都更多地接触和实践技术。尽管如此，我个人并不认为之前的时间是浪费的，因为它为我提供了宝贵的CMS行业洞察。</p>
 						</>
 					}
 
