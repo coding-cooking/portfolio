@@ -12,16 +12,16 @@ export type JobYear = JobInterface['year']
 export const yearsEn: Array<JobYear> = [
     '07/2023 to date',
     '10/2022 - 06/2023',
-    '06/2020 - 09/2022',
-    '12/2014 - 05/2020',
+    '02/2020 - 09/2022',
+    '12/2014 - 01/2020',
     '07/2011 - 11/2014'
 ]
 
 export const yearsCH: Array<JobYear> = [
     '07/2023 to date',
     '10/2022 - 06/2023',
-    '06/2020 - 09/2022',
-    '12/2014 - 05/2020',
+    '02/2020 - 09/2022',
+    '12/2014 - 01/2020',
     '07/2011 - 11/2014'
 ]
 
@@ -46,14 +46,14 @@ const jobsEn: Array<JobInterface> = [
         produceImage: '',
     },
     {
-        year: '06/2020 - 09/2022',
+        year: '02/2020 - 09/2022',
         company: 'UC Browser',
         jobTitle: 'Frontend Developer',
         jobDescription: 'Writing modern, performant, maintainable code for multiple content management systems.; Using different languages, frameworks, and libraries such as JavaScript, TypeScript, React, Redux, Ant Design, Styled Components, Node.js, WebSocket. ; Communicating with multi-disciplinary teams of engineers, product managers on a regular basis.;Providing effective troubleshooting and remediation for web applications. ',
         produceImage: '',
     },
     {
-        year: '12/2014 - 05/2020',
+        year: '12/2014 - 01/2020',
         company: 'Toutiao',
         jobTitle: 'Content Operation Manager',
         jobDescription: 'Utilizing advanced personalized algorithms, in combination with human operation to recommend customized content and breaking news to users.;Collaborating with product managers and development teams to build, optimize, and updata multiple content management systems, enabling the operation team to promptly discover breaking news and trending topics.; Responsible for discussing with UI & UX about then content display and user interaction of website content, using sketches and Lark, etc. ',
@@ -84,14 +84,14 @@ const jobsCH: Array<JobInterface> = [
         produceImage: '',
     },
     {
-        year: '06/2020 - 09/2022',
+        year: '02/2020 - 09/2022',
         company: 'UC浏览器',
         jobTitle: '前端开发',
         jobDescription: '为多个内容管理系统编写现代化、高性能、可维护的代码。;使用不同的技术语言、框架和库，如JavaScript、TypeScript、React、Redux、Ant Design、Styled Components、Node.js、WebSocket。;与工程师、产品经理等多学科团队定期沟通；为Web应用程序提供有效的故障排除和修复服务。',
         produceImage: '',
     },
     {
-        year: '12/2014 - 05/2020',
+        year: '12/2014 - 01/2020',
         company: '头条',
         jobTitle: '内容运营经理',
         jobDescription: '利用先进的个性化算法，结合人工运营，向用户推送定制内容和突发新闻。;与产品经理和开发团队合作，打造、优化和升级多个内容管理系统，使运营团队能够及时发现突发新闻和热门话题。;负责与UI和UX讨论和改进产品的UI与功能设计，提升用户体验。',
