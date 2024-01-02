@@ -7,7 +7,7 @@ import {
 const Footer: FC<{}> = () => {
 	return (
 		<StyledFooter>
-			<Copyright>Built by Fei Zhang @2023</Copyright>
+			<Copyright>Built by Felix Zhang @2023</Copyright>
 			<div>
 				<a href="mailto:zhangfei.rocinante@gmail.com"><StyledHiOutlineMail /></a>
 			</div>

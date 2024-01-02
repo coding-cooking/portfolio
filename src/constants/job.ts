@@ -10,7 +10,9 @@ export interface JobInterface {
 export type JobYear = JobInterface['year']
 
 export const yearsEn: Array<JobYear> = [
-    '07/2023 to date',
+
+    '12/2023 to date',
+    '07/2022 - 12/2023',
     '10/2022 - 06/2023',
     '02/2020 - 09/2022',
     '12/2014 - 01/2020',
@@ -18,7 +20,8 @@ export const yearsEn: Array<JobYear> = [
 ]
 
 export const yearsCH: Array<JobYear> = [
-    '07/2023 to date',
+    '12/2023 to date',
+    '07/2022 - 12/2023',
     '10/2022 - 06/2023',
     '02/2020 - 09/2022',
     '12/2014 - 01/2020',
@@ -32,7 +35,15 @@ export const yearsWithLang = {
 
 const jobsEn: Array<JobInterface> = [
     {
-        year: '07/2023 to date',
+        year: '12/2023 to data',
+        company: 'Tomorrowdragon',
+        jobTitle: 'Senior Software engineer',
+        jobDescription: 'Responsible for the frontend development of the online food ordering and delivering platform project. ;Tech stack includes NextJs, Typescript, Auth0, Stripe, Ant Design, and Styled Components.',
+        produceImage: '',
+
+    },
+    {
+        year: '07/2023 - 12/2023',
         company: 'Freelance',
         jobTitle: 'Software engineer',
         jobDescription: 'Building applications in my personal time. Full stack apps using a mix of the following tech: React, NextJS, Typescript, GraphQL, Styled Components & TailwindCSS, Strapi, AWS(EC2, RDS, S3), NodeJS, Git, VS Code',
@@ -70,7 +81,15 @@ const jobsEn: Array<JobInterface> = [
 
 const jobsCH: Array<JobInterface> = [
     {
-        year: '07/2023 to date',
+        year: '12/2023 to data',
+        company: 'Tomorrowdragon',
+        jobTitle: '资深前端开发',
+        jobDescription: '独立负责在线订餐配送平台项目的前端开发。;技术栈包括 NextJs、Typescript、Auth0、Stripe、Ant Design 和 Styled Components。',
+        produceImage: '',
+
+    },
+    {
+        year: '07/2023 - 12/2023',
         company: '自由职业',
         jobTitle: '软件开发',
         jobDescription: '在我的个人时间里，我正在构建应用程序。我使用了一系列技术来开发全栈应用，包括：React、NextJS、Typescript、GraphQL、Styled Components 和 TailwindCSS、Strapi、AWS（EC2、RDS、S3）、NodeJS、Git 和 VS Code',
@@ -80,7 +99,7 @@ const jobsCH: Array<JobInterface> = [
         year: '10/2022 - 06/2023',
         company: '多抓鱼',
         jobTitle: '前端开发',
-        jobDescription: '使用React、NextJs、Typescript和Styled Components构建响应式用户界面，使用Storybook进行UI开发，使用axios获取数据，使用Redux管理状态来构建ToC用户界面; 同时，使用React、Typescript、Ant Design和Redux来管理仓库库存的内部CMS系统; 与一个由10人组成的开发团队合作，定期相互审查代码并处理PR反馈，拆分任务并分配给团队成员',
+        jobDescription: '使用React、NextJs、Typescript和Styled Components构建响应式用户界面，使用Storybook进行UI开发，使用axios获取数据，使用Redux管理状态来构建ToC用户界面; 同时，使用React、Typescript、Ant Design和Redux来管理仓库库存的内部CMS系统; 与一个由10人组成的开发团队合作，定期相互审查代码并处理PR反馈，拆分任务并分配给团队成员。',
         produceImage: '',
     },
     {

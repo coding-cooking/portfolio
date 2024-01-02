@@ -14,7 +14,7 @@ const Hero: FC<{}> = () => {
 			{lang === "EN" ? (
 				<>
 					<h1>{`Hey, I'm`}</h1>
-					<h2>{`Fei Zhang`}</h2>
+					<h2>{`Felix Zhang`}</h2>
 					<SelfIntro>
 						{`I'm a software developer specializing in building CMS and e-commerce websites, currently I'm looking for new opportunities, please feel free to contact me`}{` -> `}
 						<Hi href="mailto:zhangfei.rocinante@gmail.com">zhangfei.rocinante@gmail.com.</Hi>

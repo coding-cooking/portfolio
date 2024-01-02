@@ -12,8 +12,8 @@ import {
 const Home: NextPage = () => (
 	<>
 		<Head>
-			<title>Fei Zhang</title>
-			<meta name="description" content="Fei Zhang's Portfolio" />
+			<title>Felix Zhang</title>
+			<meta name="description" content="Felix Zhang's Portfolio" />
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
 		<Header />
