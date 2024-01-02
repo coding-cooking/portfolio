@@ -17,7 +17,7 @@ const Hero: FC<{}> = () => {
 					<h2>{`Felix Zhang`}</h2>
 					<SelfIntro>
 						{`I'm a software developer specializing in building CMS and e-commerce websites, currently I'm looking for new opportunities, please feel free to contact me`}{` -> `}
-						<Hi href="mailto:zhangfei.rocinante@gmail.com">zhangfei.rocinante@gmail.com.</Hi>
+						<Hi href="mailto:felixzhang.rocinante@gmail.com">felixzhang.rocinante@gmail.com.</Hi>
 					</SelfIntro>
 					<a href={resume}>
 						<ResumeButton>Check out my resume</ResumeButton>
@@ -29,7 +29,7 @@ const Hero: FC<{}> = () => {
 					<h2>{`Felix Zhangg`}</h2>
 					<SelfIntro lineHeight="1.6">
 						{`我是一名软件工程师，擅长搭建CMS和电商网站，最近正在寻找新的机会，欢迎随时联系我`}{` `}
-						<Hi href="mailto:zhangfei.rocinante@gmail.com">zhangfei.rocinante@gmail.com.</Hi>
+						<Hi href="mailto:felixzhang.rocinante@gmail.com">felixzhang.rocinante@gmail.com.</Hi>
 					</SelfIntro>
 					<a href={resume}>
 						<ResumeButton>查看我的简历</ResumeButton>
