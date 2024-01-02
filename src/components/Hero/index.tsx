@@ -26,7 +26,7 @@ const Hero: FC<{}> = () => {
 			) : (
 				<>
 					<h1>{`Hi, my name is`}</h1>
-					<h2>{`张飞`}</h2>
+					<h2>{`Felix Zhangg`}</h2>
 					<SelfIntro lineHeight="1.6">
 						{`我是一名软件工程师，擅长搭建CMS和电商网站，最近正在寻找新的机会，欢迎随时联系我`}{` `}
 						<Hi href="mailto:zhangfei.rocinante@gmail.com">zhangfei.rocinante@gmail.com.</Hi>
